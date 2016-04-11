@@ -3157,6 +3157,12 @@ body.is-loading #banner:after {
     opacity: 1;
 }
 
+/* slideshow */
+
+#slideshow img {
+    max-width: 100%;
+}
+
 /* CTA */
 
 #cta .inner {
