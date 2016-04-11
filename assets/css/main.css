@@ -2242,6 +2242,7 @@ button:disabled,
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
+    overflow: auto;
 }
 .spotlight .image {
     -moz-order: 1;
@@ -2263,6 +2264,7 @@ button:disabled,
     order: 2;
     max-width: 48em;
     width: 60%;
+    overflow: auto;
 }
 .spotlight:nth-child(2n) {
     -moz-flex-direction: row-reverse;
@@ -2302,30 +2304,44 @@ button:disabled,
 }
 @media screen and (max-width: 1280px) {
     .spotlight .image {
-        width: 45%;
+        width: 50%;
+        overflow: auto;
     }
     .spotlight .content {
         width: 55%;
+        overflow: auto;
+    }
+    .spotlight .content p {
+        overflow: auto;
     }
 }
 @media screen and (max-width: 980px) {
     .spotlight {
         display: block;
+        overflow: auto;
     }
     .spotlight br {}
     .spotlight .image {
         width: 100%;
+        overflow: auto;
     }
     .spotlight .content {
         padding: 4em 3em 2em 3em;
         max-width: none;
         text-align: center;
         width: 100%;
+        overflow: auto;
+    }
+    .spotlight .content p {
+        overflow: auto;
     }
 }
 @media screen and (max-width: 736px) {
     .spotlight .content {
         padding: 3em 2em 1em 2em;
+    }
+    .spotlight .content p {
+        overflow: auto;
     }
 }
 
