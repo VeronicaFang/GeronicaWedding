@@ -1518,7 +1518,7 @@ header.major li {
         margin: 0px auto;
     }
     header li {
-        font-size: 8px;
+        font-size: 1em;
     }
 }
 @media screen and (max-width: 980px) {
@@ -3216,6 +3216,9 @@ body.is-loading #banner:after {
 @media screen and (max-width: 736px) {
     #cta .inner .actions {
         max-width: none;
+    }
+    #cta li {
+        font-size: 1em;
     }
 }
 
