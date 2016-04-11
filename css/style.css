@@ -94,6 +94,12 @@ header .byline {
     margin: 0.5em 0 0 0;
     padding: 0 0 0.5em 0;
 }
+#major p {
+    outline: inherit;
+}
+#majorli {
+    list-style-type: none;
+}
 ul.style {}
 ul.style li {
     padding: 0.55em 0em;
@@ -113,6 +119,10 @@ ul.style1 a {
 ul.style1 img {
     float: left;
     margin-right: 1em;
+}
+emailbutton {
+    font-size: 100%;
+    overflow: hidden;
 }
 
 /*********************************************************************************/
