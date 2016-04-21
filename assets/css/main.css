@@ -1473,6 +1473,10 @@ header p {
     outline: inherit;
     text-align: justify;
     text-justify: inter-ideograph;
+    font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
+}
+header li {
+    font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
 }
 header h3 + p {
     font-size: 1.1em;
@@ -3050,6 +3054,8 @@ body.is-menu-visible #menu {
 #banner p {
     letter-spacing: 0.225em;
     text-transform: uppercase;
+       font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
+       font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
 }
 #banner p a {
     color: inherit;
