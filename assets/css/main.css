@@ -3054,8 +3054,8 @@ body.is-menu-visible #menu {
 #banner p {
     letter-spacing: 0.225em;
     text-transform: uppercase;
-       font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
-       font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
+    font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
+    font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
 }
 #banner p a {
     color: inherit;
@@ -3379,4 +3379,8 @@ body.is-mobile.landing .wrapper.style4 {
 }
 body.is-mobile.landing #footer {
     background-color: #1d242a;
+}
+#googleform {
+    width: 80%;
+    height: 80%;
 }
