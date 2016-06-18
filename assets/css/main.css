@@ -2376,7 +2376,7 @@ button:disabled,
 }
 .wrapper.style1 {
     background-color: #21b2a6;
-    color: #c7ebe8;
+    color: white;
 }
 .wrapper.style1 strong,
 .wrapper.style1 b {
@@ -2399,7 +2399,7 @@ button:disabled,
     background: rgba(255, 255, 255, 0.075);
 }
 .wrapper.style1 header p {
-    color: #a6e0db;
+    color: ;
 }
 .wrapper.style1 header.major h2,
 .wrapper.style1 header.major h3,
@@ -2409,7 +2409,7 @@ button:disabled,
     border-color: rgba(0, 0, 0, 0.125);
 }
 .wrapper.style1 header.major p {
-    color: #c7ebe8;
+    color: white;
 }
 .wrapper.style1 label {
     color: #ffffff;
@@ -3052,7 +3052,7 @@ body.is-menu-visible #menu {
     right: 0;
 }
 #banner p {
-    letter-spacing: 0.225em;
+    letter-spacing: 0.25em;
     text-transform: uppercase;
     font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
     font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
